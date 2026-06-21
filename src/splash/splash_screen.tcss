@@ -1,0 +1,9 @@
+Screen {
+    layout: vertical;
+    align: center middle;
+}
+
+.display-text {
+    width: auto;
+    color: dodgerblue;
+}
