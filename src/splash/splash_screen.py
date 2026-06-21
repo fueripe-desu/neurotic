@@ -17,7 +17,7 @@ class SplashScreen(Screen):
         yield Static(r"| $$\  $$$| $$_____/| $$  | $$| $$      | $$  | $$  | $$ /$$| $$| $$      ", classes="display-text")
         yield Static(r"| $$ \  $$|  $$$$$$$|  $$$$$$/| $$      |  $$$$$$/  |  $$$$/| $$|  $$$$$$$", classes="display-text")
         yield Static(r"|__/  \__/ \_______/ \______/ |__/       \______/    \___/  |__/ \_______/", classes="display-text")
-        yield Footer(show_command_palette=False)
+        yield Footer()
 
     def on_mount(self) -> None:
         self.theme = "tokyo-night"
